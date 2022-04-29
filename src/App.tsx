@@ -1,6 +1,7 @@
 import type { Component } from 'solid-js';
-import { container } from './App.css';
+
+import { Hero } from './components/top/Hero';
 
 export const App: Component = () => {
-  return <div class={container}>G4RDS</div>;
+  return <Hero />;
 };
