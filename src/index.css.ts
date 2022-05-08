@@ -1,9 +1,26 @@
-import { createGlobalTheme, globalStyle } from '@vanilla-extract/css';
+import {
+  createGlobalTheme,
+  globalFontFace,
+  globalStyle,
+} from '@vanilla-extract/css';
+
+globalFontFace('Metropolis', {
+  src: 'url("/src/assets/fonts/metropolis-regular.otf")',
+  fontWeight: 'normal',
+});
+globalFontFace('Metropolis', {
+  src: 'url("/src/assets/fonts/metropolis-semi-bold.otf")',
+  fontWeight: '600',
+});
+globalFontFace('Metropolis', {
+  src: 'url("/src/assets/fonts/metropolis-bold.otf")',
+  fontWeight: 'bold',
+});
 
 globalStyle('body', {
   margin: 0,
   fontFamily:
-    "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
+    "Metropolis, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
   WebkitFontSmoothing: 'antialiased',
   MozOsxFontSmoothing: 'grayscale',
 });
