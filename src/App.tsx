@@ -1,7 +1,7 @@
 import type { Component } from 'solid-js';
 
-import { Hero } from './components/top/Hero';
+import { TopPage } from './pages/TopPage';
 
 export const App: Component = () => {
-  return <Hero />;
+  return <TopPage />;
 };
