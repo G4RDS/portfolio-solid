@@ -5,15 +5,15 @@ import {
 } from '@vanilla-extract/css';
 
 globalFontFace('Metropolis', {
-  src: 'url("/src/assets/fonts/metropolis-regular.otf")',
+  src: 'url("/public/fonts/metropolis-regular.otf")',
   fontWeight: 'normal',
 });
 globalFontFace('Metropolis', {
-  src: 'url("/src/assets/fonts/metropolis-semi-bold.otf")',
+  src: 'url("/public/fonts/metropolis-semi-bold.otf")',
   fontWeight: '600',
 });
 globalFontFace('Metropolis', {
-  src: 'url("/src/assets/fonts/metropolis-bold.otf")',
+  src: 'url("/public/fonts/metropolis-bold.otf")',
   fontWeight: 'bold',
 });
 
