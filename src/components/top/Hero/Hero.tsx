@@ -7,6 +7,7 @@ import {
   position,
   uiExamplesContainer,
 } from './Hero.css';
+import { UserMenu } from './ui_examples/UserMenu';
 import { ValueDisplay } from './ui_examples/ValueDisplay';
 
 export const Hero: Component = () => {
@@ -18,6 +19,7 @@ export const Hero: Component = () => {
       </h1>
       <div class={uiExamplesContainer}>
         <ValueDisplay />
+        <UserMenu />
       </div>
     </div>
   );
