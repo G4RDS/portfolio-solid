@@ -36,5 +36,7 @@ export const uiExamplesContainer = style({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  flexDirection: 'column',
+  gap: '2rem',
   width: '50vw',
 });
