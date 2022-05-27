@@ -2,6 +2,7 @@ import { style } from '@vanilla-extract/css';
 import { themeVars } from '../../../index.css';
 
 export const container = style({
+  position: 'relative',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
@@ -25,4 +26,15 @@ export const position = style({
   display: 'block',
   marginTop: 16,
   fontSize: 48,
+});
+
+export const uiExamplesContainer = style({
+  position: 'absolute',
+  right: 0,
+  top: 0,
+  bottom: 0,
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  width: '50vw',
 });

@@ -1,6 +1,13 @@
 import type { Component } from 'solid-js';
 
-import { container, name, nameContainer, position } from './Hero.css';
+import {
+  container,
+  name,
+  nameContainer,
+  position,
+  uiExamplesContainer,
+} from './Hero.css';
+import { ValueDisplay } from './ui_examples/ValueDisplay';
 
 export const Hero: Component = () => {
   return (
@@ -9,6 +16,9 @@ export const Hero: Component = () => {
         <span class={name}>G4RDS</span>
         <span class={position}>Frontend Engineer</span>
       </h1>
+      <div class={uiExamplesContainer}>
+        <ValueDisplay />
+      </div>
     </div>
   );
 };
