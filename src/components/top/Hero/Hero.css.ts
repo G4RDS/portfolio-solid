@@ -40,3 +40,13 @@ export const uiExamplesContainer = style({
   gap: '2rem',
   width: '50vw',
 });
+
+export const uiExamplesSquare = style({
+  position: 'absolute',
+  zIndex: -1,
+  width: '20rem',
+  height: '20rem',
+  background: themeVars.colors.primary[500],
+  borderRadius: '4rem',
+  transform: 'rotate(-15deg)',
+});
